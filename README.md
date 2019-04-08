@@ -46,4 +46,4 @@ use with **(OnSelectItem)="function"** code to return the event, and the item se
 ```json
 {"colum_name": "item 1","value": 1} //like this
 ```
-
+**note:** please modify the css file.
