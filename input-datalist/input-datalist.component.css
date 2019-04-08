@@ -1,0 +1,38 @@
+.data-list > a:hover, .data-list > a.isSelected{
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  background-color: var(--blue-card);
+  color: white;
+}
+.data-list > a {
+  padding-right: 2px;
+  padding-left: 2px;
+  cursor: pointer;
+  display: block;
+  /*margin: 0;*/
+  margin: 2px;
+  font-family: Quicksand-Regular;
+  font-size: 14px;
+  color: var(--font-grey);
+  /*border-bottom: 2px solid var(--coco);*/
+  background-color: var(--tag-li);
+}
+.data-list {
+  /*display: none;*/
+  background-color: white;
+  position: absolute;
+  border: 2px solid #9c9c9c;
+  height: fit-content !important;
+  width: auto !important;
+  max-height:15vh !important;
+  /*max-width:15vh !important;*/
+  /*overflow:scroll !important;*/
+  /*overflow-x:hidden;*/
+  overflow-y:scroll;
+  z-index: 10;
+}
+.mhm-tag-builder{
+  padding-left: 8% !important;
+  align-items: center;
+}

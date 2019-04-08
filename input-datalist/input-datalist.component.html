@@ -1,0 +1,7 @@
+
+<div [id]="'id_' + idList + '_data_list'" class="data-list" [hidden]="!(isFocus && datalist.length > 0 )">
+  <ng-container *ngFor="let dl of datalist; let i = index;">
+    <a  [class]="i === indexItem ? 'isSelected' : ''" (click)="OnSelectItem.next(dl); filterData('');">{{dl[columnValue]}}</a>
+    <!--<a  >{{dl[columnValue]}}</a>-->
+  </ng-container>
+</div>
