@@ -1,4 +1,4 @@
-# da2-datalist
+# input-datalist
 datalist to use on multiple browsers, include Safari that have compatibility issues with the datalist components
 I prefer to upload the component folder because I want to make this element modifiable, and it´s possible in the future to make a "npm" module to install it.
 
