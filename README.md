@@ -30,7 +30,7 @@ use with **[item_list]="[Array JSON]"** code and you can add the JSON array with
 }]
 ```
 ## select the column list
-use with **[columnValue]="string colum name"** code to select the header to show on the suggestions, acording to the JSON.
+use with **[columnValue]="string column name"** code to select the header to show on the suggestions, according to the JSON.
 ## input element reference
 use with **[inputElement]="angular HTML ID"** code and you can add the html input reference.
 ```html
@@ -38,7 +38,7 @@ use with **[inputElement]="angular HTML ID"** code and you can add the html inpu
 <app-input-datalist  [inputElement]="stEntry"></app-input-datalist>
 ```
 ## get the item selected (event)
-use with **(OnSelectItem)="function"** code to return the event, and the the item selected.
+use with **(OnSelectItem)="function"** code to return the event, and the item selected.
 ```html
 <app-input-datalist  (OnSelectItem)="addSelection($event)"></app-input-datalist>
 ```
