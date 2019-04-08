@@ -2,7 +2,7 @@
   transition: 0.5s;
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
-  background-color: var(--blue-card);
+  background-color: var(--blue-card); /*set any color here*/
   color: white;
 }
 .data-list > a {
@@ -12,10 +12,9 @@
   display: block;
   /*margin: 0;*/
   margin: 2px;
-  font-family: Quicksand-Regular;
+  font-family: Quicksand-Regular; /*set any font here*/
   font-size: 14px;
   color: var(--font-grey);
-  /*border-bottom: 2px solid var(--coco);*/
   background-color: var(--tag-li);
 }
 .data-list {
