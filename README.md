@@ -42,7 +42,7 @@ use with **(OnSelectItem)="function"** code to return the event, and the item se
 ```html
 <app-input-datalist  (OnSelectItem)="addSelection($event)"></app-input-datalist>
 ```
-** $event** returns the JSON item.
+**$event** returns the JSON item.
 ```json
 {"colum_name": "item 1","value": 1} //like this
 ```
