@@ -12,7 +12,7 @@ export class InputDatalistComponent implements OnInit {
   @Input() public item_list = [];
   @Input() public inputElement: any;
   @Input() public columnValue: string;
-  @Input() public filter: {column: '', value: null};
+  @Input() public filter: {column: '', value: null}; // use this if you need an additional filter
   @Output() public OnSelectItem =  new EventEmitter<any>();
   itemSelected: any;
   datalist = [];
