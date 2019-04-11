@@ -8,9 +8,9 @@ I prefer to upload the component folder because I want to make this element modi
  
 You can copy each part of the code on the new component generated.
   
-`input-datalist.component.css
-input-datalist.component.html
-input-datalist.component.spec.ts
+`input-datalist.component.css \n
+input-datalist.component.html \n
+input-datalist.component.spec.ts \n
 input-datalist.component.ts`
 
 you add the datalist using this code:
